@@ -38,5 +38,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./dist s3://devops-assignment-q2-ttn --deleteø
-
+          aws s3 sync ./dist s3://devops-assignment-q2-ttn --delete
